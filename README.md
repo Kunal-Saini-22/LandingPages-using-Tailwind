@@ -22,4 +22,6 @@
  **pre-requisite** :  *nodejs* should be installed , go to cmd or terminal of your code editor and run : **node -v to confirm installation**
  
  ![tailwind_setup](https://user-images.githubusercontent.com/92505744/213866058-584c1d47-ee9e-41e2-96fa-edd64132eae7.png)
+ 
+ Now you are rady to run **Tailwind CSS**.
 
