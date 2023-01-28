@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    list-style: none;
+    text-decoration: none;
+    outline: blue;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+@media screen and (max-width: 640px) {
+
+ .outer-flex{
+    /* border: 2px solid black; */
+    display: block;  
+ }
+
+ .container{
+    padding: 0%;
+    margin: 0%;
+ }
+
+ .login{
+    /* border: 2px solid green; */
+    position: relative; 
+     top: -30px;
+ }
+
+ .fb-logo{
+    /* border: 2px solid red; */
+    padding: 0%;
+    margin: 0%;
+ }
+
+ .logo-desc{
+    visibility: hidden;
+
+ }
+    
+}

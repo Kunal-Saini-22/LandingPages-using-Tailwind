@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - log in or sign up</title>
+    <link rel="icon" href="./images/fb.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="outer-flex flex justify-evenly p-40">
+
+        <!-- left side : logo and text section  -->
+
+        <div class=" container m-4 p-2 w-[480px] ">
+
+            <div class="fb-logo w-80 ">
+                <img src="https://static.xx.fbcdn.net/rsrc.php/y8/r/dF5SId3UHWd.svg" alt="fb-logo" width="400px">
+            </div>
+        
+            <div class="logo-desc text-2xl font-medium ml-8">
+                Facebook helps you connect and share with the people in your life.
+            </div>
+        
+        </div>
+
+        <!-- Right side : form section  -->
+
+        <div class="login w-min p-2 shadow-md rounded-lg shadow-gray-400 bg-white">
+
+            <ul class="flex flex-col space-y-4 text-center  w-auto p-4 rounded-lg ">
+    
+                <li><input class="shadow-sm px-4 w-80 py-3 rounded-md  border-2 border-slate-300 focus:outline-none focus:ring focus:border-l-blue-900 " type="email" name="email" placeholder="Email address" autocomplete="off" ></li>
+                <li><input class="shadow-sm px-4 w-80 py-3 rounded-md border-2 border-slate-300 focus:outline-none focus:ring focus:border-l-blue-900 border-1px border-black" type="password" name="pass" placeholder="password" autocomplete="off"></li>
+                
+                <li><button type="button" class="w-80 bg-blue-700 text-white font-bold p-3 rounded-md hover:bg-blue-800 active:bg-blue-900 active:text-blue-100">Log in</button></li>
+                <li> <p><a class="text-blue-600" href="#">Forgotten password ?</a></p></li>
+                <hr>
+                <li><button type="button" class="w-auto bg-green-500 text-white font-bold p-3 rounded-md hover:bg-green-600 active:bg-green-700 active:text-green-100">Create new account</button></li>
+            </ul>   
+        </div>
+    </div>
+
+    
+
+    
+</body>
+</html>
